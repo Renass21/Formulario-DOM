@@ -1,4 +1,5 @@
 const lista = document.getElementById('lista');
+const paginacao = 
 
 axios.get('https://api-crud-de-recados.onrender.com/recados').then((result)=>{
     console.log(result.data.recados);
